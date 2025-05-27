@@ -1,0 +1,4 @@
+[console_scripts]
+service_temp_client = service_temp.service_temp_client:main
+service_temp_server = service_temp.service_temp_server:main
+

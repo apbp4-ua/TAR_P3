@@ -1,0 +1,8 @@
+setup.py
+srv_service_temp/__init__.py
+srv_service_temp.egg-info/PKG-INFO
+srv_service_temp.egg-info/SOURCES.txt
+srv_service_temp.egg-info/dependency_links.txt
+srv_service_temp.egg-info/top_level.txt
+srv_service_temp/srv/__init__.py
+srv_service_temp/srv/_conversion.py

@@ -1,0 +1,21 @@
+[1.226s] Invoking command in '/workspace/ros2_ws/src/pruebaPregunta2': PYTHONPATH=/workspace/ros2_ws/build/pruebaPregunta2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/pruebaPregunta2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pruebaPregunta2 build --build-base /workspace/ros2_ws/build/pruebaPregunta2/build install --record /workspace/ros2_ws/build/pruebaPregunta2/install.log --single-version-externally-managed install_data
+[1.493s] running egg_info
+[1.494s] writing ../../build/pruebaPregunta2/pruebaPregunta2.egg-info/PKG-INFO
+[1.494s] writing dependency_links to ../../build/pruebaPregunta2/pruebaPregunta2.egg-info/dependency_links.txt
+[1.494s] writing entry points to ../../build/pruebaPregunta2/pruebaPregunta2.egg-info/entry_points.txt
+[1.494s] writing requirements to ../../build/pruebaPregunta2/pruebaPregunta2.egg-info/requires.txt
+[1.494s] writing top-level names to ../../build/pruebaPregunta2/pruebaPregunta2.egg-info/top_level.txt
+[1.496s] reading manifest file '../../build/pruebaPregunta2/pruebaPregunta2.egg-info/SOURCES.txt'
+[1.496s] adding license file 'LICENSE'
+[1.496s] writing manifest file '../../build/pruebaPregunta2/pruebaPregunta2.egg-info/SOURCES.txt'
+[1.496s] running build
+[1.497s] running build_py
+[1.497s] running install
+[1.497s] running install_lib
+[1.499s] running install_data
+[1.499s] running install_egg_info
+[1.502s] removing '/workspace/ros2_ws/install/pruebaPregunta2/lib/python3.10/site-packages/pruebaPregunta2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.502s] Copying ../../build/pruebaPregunta2/pruebaPregunta2.egg-info to /workspace/ros2_ws/install/pruebaPregunta2/lib/python3.10/site-packages/pruebaPregunta2-0.0.0-py3.10.egg-info
+[1.503s] running install_scripts
+[1.524s] writing list of installed files to '/workspace/ros2_ws/build/pruebaPregunta2/install.log'
+[1.560s] Invoked command in '/workspace/ros2_ws/src/pruebaPregunta2' returned '0': PYTHONPATH=/workspace/ros2_ws/build/pruebaPregunta2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/pruebaPregunta2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pruebaPregunta2 build --build-base /workspace/ros2_ws/build/pruebaPregunta2/build install --record /workspace/ros2_ws/build/pruebaPregunta2/install.log --single-version-externally-managed install_data

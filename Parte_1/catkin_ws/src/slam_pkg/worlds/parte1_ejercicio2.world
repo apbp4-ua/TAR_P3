@@ -1,0 +1,131 @@
+<sdf version="1.7">
+  <world name="custom_obstacle_world">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <model name="wall_L1">
+      <static>1</static>
+      <link name="link">
+        <pose>0 6 1.25 0 0 0</pose>
+        <collision name="collision">
+          <geometry><box><size>12 0.1 2.5</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>12 0.1 2.5</size></box></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="wall_L2">
+      <static>1</static>
+      <link name="link">
+        <pose>6 0 1.25 0 0 1.5708</pose>
+        <collision name="collision">
+          <geometry><box><size>12 0.1 2.5</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>12 0.1 2.5</size></box></geometry>
+        </visual>
+      </link>
+    </model>
+    
+    <model name="wall_front">
+      <static>1</static>
+      <link name="link">
+        <pose>-6 0 1.25 0 0 1.5708</pose>
+        <collision name="collision">
+          <geometry><box><size>12 0.1 2.5</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>12 0.1 2.5</size></box></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="wall_back">
+      <static>1</static>
+      <link name="link">
+        <pose>0 -6 1.25 0 0 0</pose>
+        <collision name="collision">
+          <geometry><box><size>12 0.1 2.5</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>12 0.1 2.5</size></box></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Columna central -->
+    <model name="central_column">
+      <static>1</static>
+      <link name="link">
+        <pose>0 0 1.0 0 0 0</pose>
+        <collision name="collision">
+          <geometry><cylinder><radius>0.3</radius><length>2</length></cylinder></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><cylinder><radius>0.3</radius><length>2</length></cylinder></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Columnas adicionales, más separadas -->
+    <model name="column_2">
+      <static>1</static>
+      <link name="link">
+        <pose>-3 3 1.0 0 0 0</pose>
+        <collision name="collision">
+          <geometry><cylinder><radius>0.3</radius><length>2</length></cylinder></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><cylinder><radius>0.3</radius><length>2</length></cylinder></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="column_3">
+      <static>1</static>
+      <link name="link">
+        <pose>3 3 1.0 0 0 0</pose>
+        <collision name="collision">
+          <geometry><cylinder><radius>0.3</radius><length>2</length></cylinder></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><cylinder><radius>0.3</radius><length>2</length></cylinder></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="column_4">
+      <static>1</static>
+      <link name="link">
+        <pose>-3 -3 1.0 0 0 0</pose>
+        <collision name="collision">
+          <geometry><cylinder><radius>0.3</radius><length>2</length></cylinder></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><cylinder><radius>0.3</radius><length>2</length></cylinder></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="column_5">
+      <static>1</static>
+      <link name="link">
+        <pose>3 -3 1.0 0 0 0</pose>
+        <collision name="collision">
+          <geometry><cylinder><radius>0.3</radius><length>2</length></cylinder></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><cylinder><radius>0.3</radius><length>2</length></cylinder></geometry>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>
+

@@ -1,0 +1,333 @@
+[0.095s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.095s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7efd87e49ba0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7efd87e49510>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7efd87e49510>>, mixin_verb=('build',))
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.244s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspace/ros2_ws'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_act) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_act) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_act) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_act) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_act) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_act) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_act) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_act) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_act) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/battery_act' with type 'ros.ament_cmake' and name 'battery_act'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/pruebaPregunta2) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/pruebaPregunta2) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/pruebaPregunta2) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/pruebaPregunta2) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/pruebaPregunta2) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/pruebaPregunta2) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/pruebaPregunta2) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/pruebaPregunta2) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/pruebaPregunta2) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pruebaPregunta2' with type 'ros.ament_python' and name 'pruebaPregunta2'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_temp) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_temp) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_temp) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_temp) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_temp) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_temp) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_temp) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_temp) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_temp) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/service_temp' with type 'ros.ament_python' and name 'service_temp'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_service_temp) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_service_temp) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_service_temp) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_service_temp) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_service_temp) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_service_temp) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_service_temp) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_service_temp) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_service_temp) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/srv_service_temp' with type 'ros.ament_cmake' and name 'srv_service_temp'
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.298s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/workspace/ros2_ws/install/srv_service_temp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.298s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/workspace/ros2_ws/install/pruebaPregunta2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.298s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/workspace/ros2_ws/install/battery_act' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.298s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/workspace/ros2_ws/install/service_temp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.299s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/workspace/ros2_ws/install/srv_service_temp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.299s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/workspace/ros2_ws/install/battery_act' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.300s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /workspace/ros2_ws/install
+[0.303s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 385 installed packages in /opt/ros/humble
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'battery_act' build argument 'cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'battery_act' build argument 'cmake_target' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'battery_act' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'battery_act' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'battery_act' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'battery_act' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'battery_act' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'battery_act' build argument 'catkin_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'battery_act' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.355s] DEBUG:colcon.colcon_core.verb:Building package 'battery_act' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/battery_act', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/battery_act', 'merge_install': False, 'path': '/workspace/ros2_ws/src/battery_act', 'symlink_install': False, 'test_result_base': None}
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'pruebaPregunta2' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'pruebaPregunta2' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'pruebaPregunta2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'pruebaPregunta2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'pruebaPregunta2' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'pruebaPregunta2' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'pruebaPregunta2' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'pruebaPregunta2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'pruebaPregunta2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'pruebaPregunta2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/pruebaPregunta2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/pruebaPregunta2', 'merge_install': False, 'path': '/workspace/ros2_ws/src/pruebaPregunta2', 'symlink_install': False, 'test_result_base': None}
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'srv_service_temp' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'srv_service_temp' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'srv_service_temp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'srv_service_temp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'srv_service_temp' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'srv_service_temp' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'srv_service_temp' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'srv_service_temp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'srv_service_temp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'srv_service_temp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/srv_service_temp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/srv_service_temp', 'merge_install': False, 'path': '/workspace/ros2_ws/src/srv_service_temp', 'symlink_install': False, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'service_temp' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'service_temp' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'service_temp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'service_temp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'service_temp' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'service_temp' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'service_temp' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'service_temp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'service_temp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'service_temp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/service_temp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/service_temp', 'merge_install': False, 'path': '/workspace/ros2_ws/src/service_temp', 'symlink_install': False, 'test_result_base': None}
+[0.357s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.359s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_ws/src/srv_service_temp' with build type 'ament_cmake'
+[0.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_ws/src/srv_service_temp'
+[0.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.364s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.364s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.373s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_ws/src/battery_act' with build type 'ament_cmake'
+[0.373s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_ws/src/battery_act'
+[0.373s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.378s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/ros2_ws/src/pruebaPregunta2' with build type 'ament_python'
+[0.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('pruebaPregunta2', 'ament_prefix_path')
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/pruebaPregunta2/share/pruebaPregunta2/hook/ament_prefix_path.ps1'
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/pruebaPregunta2/share/pruebaPregunta2/hook/ament_prefix_path.dsv'
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/pruebaPregunta2/share/pruebaPregunta2/hook/ament_prefix_path.sh'
+[0.382s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.382s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/srv_service_temp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/srv_service_temp -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/srv_service_temp
+[0.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/battery_act': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/battery_act -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/battery_act
+[0.695s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/ros2_ws/src/pruebaPregunta2'
+[0.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/src/pruebaPregunta2': PYTHONPATH=/workspace/ros2_ws/build/pruebaPregunta2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/pruebaPregunta2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pruebaPregunta2 build --build-base /workspace/ros2_ws/build/pruebaPregunta2/build install --record /workspace/ros2_ws/build/pruebaPregunta2/install.log --single-version-externally-managed install_data
+[1.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/src/pruebaPregunta2' returned '0': PYTHONPATH=/workspace/ros2_ws/build/pruebaPregunta2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/pruebaPregunta2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pruebaPregunta2 build --build-base /workspace/ros2_ws/build/pruebaPregunta2/build install --record /workspace/ros2_ws/build/pruebaPregunta2/install.log --single-version-externally-managed install_data
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/pruebaPregunta2' for CMake module files
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/pruebaPregunta2' for CMake config files
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/pruebaPregunta2/lib'
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/pruebaPregunta2/bin'
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/pruebaPregunta2/lib/pkgconfig/pruebaPregunta2.pc'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/pruebaPregunta2/lib/python3.10/site-packages'
+[1.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('pruebaPregunta2', 'pythonpath')
+[1.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/pruebaPregunta2/share/pruebaPregunta2/hook/pythonpath.ps1'
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/pruebaPregunta2/share/pruebaPregunta2/hook/pythonpath.dsv'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/pruebaPregunta2/share/pruebaPregunta2/hook/pythonpath.sh'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/pruebaPregunta2/bin'
+[1.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pruebaPregunta2)
+[1.410s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/pruebaPregunta2/share/pruebaPregunta2/package.ps1'
+[1.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/pruebaPregunta2/share/pruebaPregunta2/package.dsv'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/pruebaPregunta2/share/pruebaPregunta2/package.sh'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/pruebaPregunta2/share/pruebaPregunta2/package.bash'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/pruebaPregunta2/share/pruebaPregunta2/package.zsh'
+[1.417s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/pruebaPregunta2/share/colcon-core/packages/pruebaPregunta2)
+[2.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/srv_service_temp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/srv_service_temp -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/srv_service_temp
+[2.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/srv_service_temp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/srv_service_temp -- -j16 -l16
+[2.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/battery_act' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/battery_act -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/battery_act
+[2.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/battery_act': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/battery_act -- -j16 -l16
+[4.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/srv_service_temp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/srv_service_temp -- -j16 -l16
+[4.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/srv_service_temp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/srv_service_temp
+[4.964s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srv_service_temp)
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/srv_service_temp' for CMake module files
+[4.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/srv_service_temp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/srv_service_temp
+[4.967s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/srv_service_temp' for CMake config files
+[4.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_service_temp', 'cmake_prefix_path')
+[4.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/hook/cmake_prefix_path.ps1'
+[4.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/hook/cmake_prefix_path.dsv'
+[4.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/hook/cmake_prefix_path.sh'
+[4.970s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/srv_service_temp/lib'
+[4.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_service_temp', 'ld_library_path_lib')
+[4.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/hook/ld_library_path_lib.ps1'
+[4.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/hook/ld_library_path_lib.dsv'
+[4.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/hook/ld_library_path_lib.sh'
+[4.973s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/srv_service_temp/bin'
+[4.973s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/srv_service_temp/lib/pkgconfig/srv_service_temp.pc'
+[4.973s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/srv_service_temp/lib/python3.10/site-packages'
+[4.974s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/srv_service_temp/bin'
+[4.974s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/package.ps1'
+[4.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/package.dsv'
+[4.976s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/package.sh'
+[4.977s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/package.bash'
+[4.978s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/package.zsh'
+[4.978s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/srv_service_temp/share/colcon-core/packages/srv_service_temp)
+[4.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srv_service_temp)
+[4.979s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/srv_service_temp' for CMake module files
+[4.979s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/srv_service_temp' for CMake config files
+[4.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_service_temp', 'cmake_prefix_path')
+[4.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/hook/cmake_prefix_path.ps1'
+[4.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/hook/cmake_prefix_path.dsv'
+[4.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/hook/cmake_prefix_path.sh'
+[4.982s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/srv_service_temp/lib'
+[4.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_service_temp', 'ld_library_path_lib')
+[4.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/hook/ld_library_path_lib.ps1'
+[4.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/hook/ld_library_path_lib.dsv'
+[4.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/hook/ld_library_path_lib.sh'
+[4.983s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/srv_service_temp/bin'
+[4.983s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/srv_service_temp/lib/pkgconfig/srv_service_temp.pc'
+[4.983s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/srv_service_temp/lib/python3.10/site-packages'
+[4.983s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/srv_service_temp/bin'
+[4.984s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/package.ps1'
+[4.984s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/package.dsv'
+[4.985s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/package.sh'
+[4.986s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/package.bash'
+[4.986s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/package.zsh'
+[4.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/srv_service_temp/share/colcon-core/packages/srv_service_temp)
+[4.987s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/ros2_ws/src/service_temp' with build type 'ament_python'
+[4.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_temp', 'ament_prefix_path')
+[4.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/service_temp/share/service_temp/hook/ament_prefix_path.ps1'
+[4.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/service_temp/share/service_temp/hook/ament_prefix_path.dsv'
+[4.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/service_temp/share/service_temp/hook/ament_prefix_path.sh'
+[4.990s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.990s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.271s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/ros2_ws/src/service_temp'
+[5.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/src/service_temp': PYTHONPATH=/workspace/ros2_ws/build/service_temp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/service_temp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service_temp build --build-base /workspace/ros2_ws/build/service_temp/build install --record /workspace/ros2_ws/build/service_temp/install.log --single-version-externally-managed install_data
+[5.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/battery_act' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/battery_act -- -j16 -l16
+[5.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/battery_act': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/battery_act
+[5.946s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(battery_act)
+[5.947s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/battery_act' for CMake module files
+[5.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/battery_act' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/battery_act
+[5.948s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/battery_act' for CMake config files
+[5.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_act', 'cmake_prefix_path')
+[5.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/battery_act/share/battery_act/hook/cmake_prefix_path.ps1'
+[5.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/battery_act/share/battery_act/hook/cmake_prefix_path.dsv'
+[5.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/battery_act/share/battery_act/hook/cmake_prefix_path.sh'
+[5.952s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/battery_act/lib'
+[5.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_act', 'ld_library_path_lib')
+[5.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/battery_act/share/battery_act/hook/ld_library_path_lib.ps1'
+[5.954s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/battery_act/share/battery_act/hook/ld_library_path_lib.dsv'
+[5.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/battery_act/share/battery_act/hook/ld_library_path_lib.sh'
+[5.955s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/battery_act/bin'
+[5.955s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/battery_act/lib/pkgconfig/battery_act.pc'
+[5.956s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/battery_act/lib/python3.10/site-packages'
+[5.956s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/battery_act/bin'
+[5.957s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/battery_act/share/battery_act/package.ps1'
+[5.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/battery_act/share/battery_act/package.dsv'
+[5.959s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/battery_act/share/battery_act/package.sh'
+[5.961s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/battery_act/share/battery_act/package.bash'
+[5.963s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/battery_act/share/battery_act/package.zsh'
+[5.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/battery_act/share/colcon-core/packages/battery_act)
+[5.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(battery_act)
+[5.966s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/battery_act' for CMake module files
+[5.968s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/battery_act' for CMake config files
+[5.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_act', 'cmake_prefix_path')
+[5.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/battery_act/share/battery_act/hook/cmake_prefix_path.ps1'
+[5.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/battery_act/share/battery_act/hook/cmake_prefix_path.dsv'
+[5.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/battery_act/share/battery_act/hook/cmake_prefix_path.sh'
+[5.972s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/battery_act/lib'
+[5.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_act', 'ld_library_path_lib')
+[5.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/battery_act/share/battery_act/hook/ld_library_path_lib.ps1'
+[5.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/battery_act/share/battery_act/hook/ld_library_path_lib.dsv'
+[5.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/battery_act/share/battery_act/hook/ld_library_path_lib.sh'
+[5.975s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/battery_act/bin'
+[5.975s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/battery_act/lib/pkgconfig/battery_act.pc'
+[5.976s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/battery_act/lib/python3.10/site-packages'
+[5.976s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/battery_act/bin'
+[5.977s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/battery_act/share/battery_act/package.ps1'
+[5.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/battery_act/share/battery_act/package.dsv'
+[5.979s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/battery_act/share/battery_act/package.sh'
+[5.980s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/battery_act/share/battery_act/package.bash'
+[5.981s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/battery_act/share/battery_act/package.zsh'
+[5.982s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/battery_act/share/colcon-core/packages/battery_act)
+[6.025s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/service_temp' for CMake module files
+[6.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/src/service_temp' returned '0': PYTHONPATH=/workspace/ros2_ws/build/service_temp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/service_temp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service_temp build --build-base /workspace/ros2_ws/build/service_temp/build install --record /workspace/ros2_ws/build/service_temp/install.log --single-version-externally-managed install_data
+[6.028s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/service_temp' for CMake config files
+[6.029s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/service_temp/lib'
+[6.029s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/service_temp/bin'
+[6.029s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/service_temp/lib/pkgconfig/service_temp.pc'
+[6.030s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/service_temp/lib/python3.10/site-packages'
+[6.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_temp', 'pythonpath')
+[6.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/service_temp/share/service_temp/hook/pythonpath.ps1'
+[6.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/service_temp/share/service_temp/hook/pythonpath.dsv'
+[6.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/service_temp/share/service_temp/hook/pythonpath.sh'
+[6.034s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/service_temp/bin'
+[6.034s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service_temp)
+[6.034s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/service_temp/share/service_temp/package.ps1'
+[6.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/service_temp/share/service_temp/package.dsv'
+[6.036s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/service_temp/share/service_temp/package.sh'
+[6.037s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/service_temp/share/service_temp/package.bash'
+[6.037s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/service_temp/share/service_temp/package.zsh'
+[6.038s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/service_temp/share/colcon-core/packages/service_temp)
+[6.038s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.039s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.039s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.039s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.050s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.050s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.050s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.050s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.053s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[6.053s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.054s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.ps1'
+[6.056s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/ros2_ws/install/_local_setup_util_ps1.py'
+[6.059s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.ps1'
+[6.062s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.sh'
+[6.063s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/ros2_ws/install/_local_setup_util_sh.py'
+[6.065s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.sh'
+[6.067s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.bash'
+[6.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.bash'
+[6.071s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.zsh'
+[6.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.zsh'

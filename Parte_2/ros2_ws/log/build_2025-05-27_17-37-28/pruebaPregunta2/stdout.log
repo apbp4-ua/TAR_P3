@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/pruebaPregunta2/pruebaPregunta2.egg-info
+writing ../../build/pruebaPregunta2/pruebaPregunta2.egg-info/PKG-INFO
+writing dependency_links to ../../build/pruebaPregunta2/pruebaPregunta2.egg-info/dependency_links.txt
+writing entry points to ../../build/pruebaPregunta2/pruebaPregunta2.egg-info/entry_points.txt
+writing requirements to ../../build/pruebaPregunta2/pruebaPregunta2.egg-info/requires.txt
+writing top-level names to ../../build/pruebaPregunta2/pruebaPregunta2.egg-info/top_level.txt
+writing manifest file '../../build/pruebaPregunta2/pruebaPregunta2.egg-info/SOURCES.txt'
+reading manifest file '../../build/pruebaPregunta2/pruebaPregunta2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/pruebaPregunta2/pruebaPregunta2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/ros2_ws/build/pruebaPregunta2/build
+creating /workspace/ros2_ws/build/pruebaPregunta2/build/lib
+creating /workspace/ros2_ws/build/pruebaPregunta2/build/lib/pruebaPregunta2
+copying pruebaPregunta2/__init__.py -> /workspace/ros2_ws/build/pruebaPregunta2/build/lib/pruebaPregunta2
+running install
+running install_lib
+creating /workspace/ros2_ws/install/pruebaPregunta2/lib/python3.10/site-packages/pruebaPregunta2
+copying /workspace/ros2_ws/build/pruebaPregunta2/build/lib/pruebaPregunta2/__init__.py -> /workspace/ros2_ws/install/pruebaPregunta2/lib/python3.10/site-packages/pruebaPregunta2
+byte-compiling /workspace/ros2_ws/install/pruebaPregunta2/lib/python3.10/site-packages/pruebaPregunta2/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /workspace/ros2_ws/install/pruebaPregunta2/share/ament_index
+creating /workspace/ros2_ws/install/pruebaPregunta2/share/ament_index/resource_index
+creating /workspace/ros2_ws/install/pruebaPregunta2/share/ament_index/resource_index/packages
+copying resource/pruebaPregunta2 -> /workspace/ros2_ws/install/pruebaPregunta2/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/ros2_ws/install/pruebaPregunta2/share/pruebaPregunta2
+running install_egg_info
+Copying ../../build/pruebaPregunta2/pruebaPregunta2.egg-info to /workspace/ros2_ws/install/pruebaPregunta2/lib/python3.10/site-packages/pruebaPregunta2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/workspace/ros2_ws/build/pruebaPregunta2/install.log'

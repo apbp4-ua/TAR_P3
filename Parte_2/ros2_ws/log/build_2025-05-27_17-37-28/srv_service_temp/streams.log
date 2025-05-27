@@ -1,0 +1,237 @@
+[0.035s] Invoking command in '/workspace/ros2_ws/build/srv_service_temp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/srv_service_temp -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/srv_service_temp
+[0.119s] -- The C compiler identification is GNU 11.4.0
+[0.200s] -- The CXX compiler identification is GNU 11.4.0
+[0.211s] -- Detecting C compiler ABI info
+[0.298s] -- Detecting C compiler ABI info - done
+[0.311s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.311s] -- Detecting C compile features
+[0.311s] -- Detecting C compile features - done
+[0.315s] -- Detecting CXX compiler ABI info
+[0.422s] -- Detecting CXX compiler ABI info - done
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.437s] -- Detecting CXX compile features
+[0.438s] -- Detecting CXX compile features - done
+[0.441s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.638s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.764s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.771s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.780s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.822s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.157s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.385s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.734s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.739s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.778s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.779s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.779s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.779s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.808s] -- Found PythonExtra: .so  
+[1.854s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.876s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.878s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.879s] -- Added test 'lint_cmake' to check CMake code style
+[1.879s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.880s] -- Added test 'xmllint' to check XML markup files
+[1.882s] -- Configuring done
+[1.903s] -- Generating done
+[1.912s] -- Build files have been written to: /workspace/ros2_ws/build/srv_service_temp
+[1.919s] Invoked command in '/workspace/ros2_ws/build/srv_service_temp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/srv_service_temp -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/srv_service_temp
+[1.923s] Invoking command in '/workspace/ros2_ws/build/srv_service_temp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/srv_service_temp -- -j16 -l16
+[1.988s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.997s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.010s] [  6%] Built target ament_cmake_python_copy_srv_service_temp
+[2.293s] running egg_info
+[2.294s] creating srv_service_temp.egg-info
+[2.294s] writing srv_service_temp.egg-info/PKG-INFO
+[2.295s] writing dependency_links to srv_service_temp.egg-info/dependency_links.txt
+[2.295s] writing top-level names to srv_service_temp.egg-info/top_level.txt
+[2.295s] writing manifest file 'srv_service_temp.egg-info/SOURCES.txt'
+[2.296s] reading manifest file 'srv_service_temp.egg-info/SOURCES.txt'
+[2.297s] writing manifest file 'srv_service_temp.egg-info/SOURCES.txt'
+[2.339s] [  6%] Built target ament_cmake_python_build_srv_service_temp_egg
+[2.392s] [  9%] [32mBuilding C object CMakeFiles/srv_service_temp__rosidl_generator_c.dir/rosidl_generator_c/srv_service_temp/srv/detail/conversion__functions.c.o[0m
+[2.397s] [  9%] Built target srv_service_temp__cpp
+[2.410s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.411s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.411s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.478s] [ 22%] [32m[1mLinking C shared library libsrv_service_temp__rosidl_generator_c.so[0m
+[2.529s] [ 22%] Built target srv_service_temp__rosidl_generator_c
+[2.543s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.543s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.545s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.805s] [ 35%] [32mBuilding CXX object CMakeFiles/srv_service_temp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/srv_service_temp/srv/conversion__type_support.cpp.o[0m
+[2.824s] [ 38%] [32mBuilding CXX object CMakeFiles/srv_service_temp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/srv_service_temp/srv/detail/conversion__type_support.cpp.o[0m
+[2.837s] [ 41%] [32mBuilding CXX object CMakeFiles/srv_service_temp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/srv_service_temp/srv/detail/dds_fastrtps/conversion__type_support.cpp.o[0m
+[2.947s] [ 45%] [32mBuilding C object CMakeFiles/srv_service_temp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/srv_service_temp/srv/detail/conversion__type_support.c.o[0m
+[2.963s] [ 48%] [32mBuilding CXX object CMakeFiles/srv_service_temp__rosidl_typesupport_c.dir/rosidl_typesupport_c/srv_service_temp/srv/conversion__type_support.cpp.o[0m
+[2.990s] [ 51%] [32mBuilding CXX object CMakeFiles/srv_service_temp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/srv_service_temp/srv/detail/conversion__type_support_c.cpp.o[0m
+[3.008s] [ 54%] [32m[1mLinking C shared library libsrv_service_temp__rosidl_typesupport_introspection_c.so[0m
+[3.011s] [ 58%] [32m[1mLinking CXX shared library libsrv_service_temp__rosidl_typesupport_c.so[0m
+[3.053s] [ 58%] Built target srv_service_temp__rosidl_typesupport_introspection_c
+[3.067s] [ 58%] Built target srv_service_temp__rosidl_typesupport_c
+[3.173s] [ 61%] [32m[1mLinking CXX shared library libsrv_service_temp__rosidl_typesupport_cpp.so[0m
+[3.235s] [ 61%] Built target srv_service_temp__rosidl_typesupport_cpp
+[3.293s] [ 64%] [32m[1mLinking CXX shared library libsrv_service_temp__rosidl_typesupport_introspection_cpp.so[0m
+[3.419s] [ 64%] Built target srv_service_temp__rosidl_typesupport_introspection_cpp
+[3.420s] [ 67%] [32m[1mLinking CXX shared library libsrv_service_temp__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.451s] [ 70%] [32m[1mLinking CXX shared library libsrv_service_temp__rosidl_typesupport_fastrtps_c.so[0m
+[3.554s] [ 70%] Built target srv_service_temp__rosidl_typesupport_fastrtps_cpp
+[3.580s] [ 70%] Built target srv_service_temp__rosidl_typesupport_fastrtps_c
+[3.609s] [ 70%] Built target srv_service_temp
+[3.636s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.111s] [ 74%] Built target srv_service_temp__py
+[4.143s] [ 77%] [32mBuilding C object CMakeFiles/srv_service_temp__rosidl_generator_py.dir/rosidl_generator_py/srv_service_temp/srv/_conversion_s.c.o[0m
+[4.253s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/srv_service_temp/libsrv_service_temp__rosidl_generator_py.so[0m
+[4.308s] [ 80%] Built target srv_service_temp__rosidl_generator_py
+[4.334s] [ 83%] [32mBuilding C object CMakeFiles/srv_service_temp__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/srv_service_temp/_srv_service_temp_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.341s] [ 87%] [32mBuilding C object CMakeFiles/srv_service_temp__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/srv_service_temp/_srv_service_temp_s.ep.rosidl_typesupport_c.c.o[0m
+[4.342s] [ 90%] [32mBuilding C object CMakeFiles/srv_service_temp__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/srv_service_temp/_srv_service_temp_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.436s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/srv_service_temp/srv_service_temp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.436s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/srv_service_temp/srv_service_temp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.443s] [100%] [32m[1mLinking C shared library rosidl_generator_py/srv_service_temp/srv_service_temp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.484s] [100%] Built target srv_service_temp__rosidl_typesupport_introspection_c__pyext
+[4.489s] [100%] Built target srv_service_temp__rosidl_typesupport_c__pyext
+[4.495s] [100%] Built target srv_service_temp__rosidl_typesupport_fastrtps_c__pyext
+[4.507s] Invoked command in '/workspace/ros2_ws/build/srv_service_temp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/srv_service_temp -- -j16 -l16
+[4.523s] Invoking command in '/workspace/ros2_ws/build/srv_service_temp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/srv_service_temp
+[4.538s] -- Install configuration: ""
+[4.538s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/ament_index/resource_index/rosidl_interfaces/srv_service_temp
+[4.539s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp
+[4.539s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/msg
+[4.539s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/msg/rosidl_generator_c__visibility_control.h
+[4.539s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv
+[4.539s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/conversion.h
+[4.540s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail
+[4.540s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail/conversion__type_support.h
+[4.540s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail/conversion__functions.h
+[4.540s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail/conversion__struct.h
+[4.540s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail/conversion__functions.c
+[4.540s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/environment/library_path.sh
+[4.540s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/environment/library_path.dsv
+[4.541s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_generator_c.so
+[4.541s] -- Set runtime path of "/workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_generator_c.so" to ""
+[4.541s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp
+[4.541s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/msg
+[4.541s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.541s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv
+[4.541s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail
+[4.542s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail/conversion__rosidl_typesupport_fastrtps_c.h
+[4.542s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_typesupport_fastrtps_c.so
+[4.542s] -- Set runtime path of "/workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_typesupport_fastrtps_c.so" to ""
+[4.542s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp
+[4.542s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/msg
+[4.542s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.542s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv
+[4.542s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail
+[4.542s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail/conversion__type_support.c
+[4.543s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail/conversion__rosidl_typesupport_introspection_c.h
+[4.543s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_typesupport_introspection_c.so
+[4.543s] -- Set runtime path of "/workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_typesupport_introspection_c.so" to ""
+[4.543s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_typesupport_c.so
+[4.543s] -- Set runtime path of "/workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_typesupport_c.so" to ""
+[4.543s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp
+[4.543s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/msg
+[4.544s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.544s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv
+[4.544s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/conversion.hpp
+[4.544s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail
+[4.544s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail/conversion__builder.hpp
+[4.545s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail/conversion__traits.hpp
+[4.545s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail/conversion__type_support.hpp
+[4.545s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail/conversion__struct.hpp
+[4.545s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp
+[4.545s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/msg
+[4.545s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.545s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv
+[4.545s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail
+[4.545s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail/conversion__rosidl_typesupport_fastrtps_cpp.hpp
+[4.545s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail/dds_fastrtps
+[4.546s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_typesupport_fastrtps_cpp.so
+[4.546s] -- Set runtime path of "/workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.546s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp
+[4.546s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv
+[4.546s] -- Up-to-date: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail
+[4.546s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail/conversion__type_support.cpp
+[4.546s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/include/srv_service_temp/srv_service_temp/srv/detail/conversion__rosidl_typesupport_introspection_cpp.hpp
+[4.546s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_typesupport_introspection_cpp.so
+[4.546s] -- Set runtime path of "/workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_typesupport_introspection_cpp.so" to ""
+[4.546s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_typesupport_cpp.so
+[4.547s] -- Set runtime path of "/workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_typesupport_cpp.so" to ""
+[4.547s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/environment/pythonpath.sh
+[4.547s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/environment/pythonpath.dsv
+[4.547s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp-0.0.0-py3.10.egg-info
+[4.547s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.547s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.547s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp-0.0.0-py3.10.egg-info/PKG-INFO
+[4.547s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp-0.0.0-py3.10.egg-info/top_level.txt
+[4.547s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp
+[4.547s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv_service_temp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.548s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/_srv_service_temp_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.548s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/libsrv_service_temp__rosidl_generator_py.so
+[4.548s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/_srv_service_temp_s.ep.rosidl_typesupport_c.c
+[4.548s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/_srv_service_temp_s.ep.rosidl_typesupport_introspection_c.c
+[4.548s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv_service_temp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.548s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv_service_temp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.549s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv
+[4.549s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv/_conversion_s.c
+[4.549s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv/_conversion.py
+[4.549s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv/__init__.py
+[4.549s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/__init__.py
+[4.584s] Listing '/workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp'...
+[4.584s] Compiling '/workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/__init__.py'...
+[4.584s] Listing '/workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv'...
+[4.584s] Compiling '/workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv/__init__.py'...
+[4.584s] Compiling '/workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv/_conversion.py'...
+[4.589s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv_service_temp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.589s] -- Set runtime path of "/workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv_service_temp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.590s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv_service_temp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.591s] -- Set runtime path of "/workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv_service_temp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.591s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv_service_temp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.591s] -- Set runtime path of "/workspace/ros2_ws/install/srv_service_temp/local/lib/python3.10/dist-packages/srv_service_temp/srv_service_temp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.591s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_generator_py.so
+[4.592s] -- Set runtime path of "/workspace/ros2_ws/install/srv_service_temp/lib/libsrv_service_temp__rosidl_generator_py.so" to ""
+[4.592s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/srv/Conversion.idl
+[4.593s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/srv/Conversion.srv
+[4.593s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/srv/Conversion_Request.msg
+[4.593s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/srv/Conversion_Response.msg
+[4.593s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/ament_index/resource_index/package_run_dependencies/srv_service_temp
+[4.594s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/ament_index/resource_index/parent_prefix_path/srv_service_temp
+[4.594s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/environment/ament_prefix_path.sh
+[4.594s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/environment/ament_prefix_path.dsv
+[4.594s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/environment/path.sh
+[4.595s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/environment/path.dsv
+[4.595s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/local_setup.bash
+[4.595s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/local_setup.sh
+[4.596s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/local_setup.zsh
+[4.596s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/local_setup.dsv
+[4.596s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/package.dsv
+[4.596s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/ament_index/resource_index/packages/srv_service_temp
+[4.596s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/export_srv_service_temp__rosidl_generator_cExport.cmake
+[4.597s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/export_srv_service_temp__rosidl_generator_cExport-noconfig.cmake
+[4.597s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/export_srv_service_temp__rosidl_typesupport_fastrtps_cExport.cmake
+[4.597s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/export_srv_service_temp__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.597s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/srv_service_temp__rosidl_typesupport_introspection_cExport.cmake
+[4.598s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/srv_service_temp__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.598s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/srv_service_temp__rosidl_typesupport_cExport.cmake
+[4.598s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/srv_service_temp__rosidl_typesupport_cExport-noconfig.cmake
+[4.599s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/export_srv_service_temp__rosidl_generator_cppExport.cmake
+[4.599s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/export_srv_service_temp__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.599s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/export_srv_service_temp__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.599s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/srv_service_temp__rosidl_typesupport_introspection_cppExport.cmake
+[4.600s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/srv_service_temp__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.600s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/srv_service_temp__rosidl_typesupport_cppExport.cmake
+[4.600s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/srv_service_temp__rosidl_typesupport_cppExport-noconfig.cmake
+[4.601s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/export_srv_service_temp__rosidl_generator_pyExport.cmake
+[4.601s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/export_srv_service_temp__rosidl_generator_pyExport-noconfig.cmake
+[4.601s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/rosidl_cmake-extras.cmake
+[4.601s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.601s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/ament_cmake_export_libraries-extras.cmake
+[4.602s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/ament_cmake_export_targets-extras.cmake
+[4.602s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.602s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.602s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.602s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/srv_service_tempConfig.cmake
+[4.602s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/cmake/srv_service_tempConfig-version.cmake
+[4.602s] -- Installing: /workspace/ros2_ws/install/srv_service_temp/share/srv_service_temp/package.xml
+[4.605s] Invoked command in '/workspace/ros2_ws/build/srv_service_temp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/pruebaPregunta2:/workspace/ros2_ws/install/service_temp:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/srv_service_temp

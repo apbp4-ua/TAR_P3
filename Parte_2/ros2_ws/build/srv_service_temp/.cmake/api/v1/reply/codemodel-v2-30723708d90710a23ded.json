@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-de6328d751999bf11a8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "srv_service_temp__py",
+					"jsonFile" : "directory-srv_service_temp__py-14d3261a9e72c6384be5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/workspace/ros2_ws/build/srv_service_temp/srv_service_temp__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "srv_service_temp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_srv_service_temp_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_srv_service_temp_egg-96aa638d4020e16048c7.json",
+					"name" : "ament_cmake_python_build_srv_service_temp_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_srv_service_temp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_srv_service_temp-c09027bdf40f3ac04df5.json",
+					"name" : "ament_cmake_python_copy_srv_service_temp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_service_temp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_service_temp-6779be945d3fd2732b9a.json",
+					"name" : "srv_service_temp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_service_temp__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_service_temp__cpp-8b05081b8f27440cf26f.json",
+					"name" : "srv_service_temp__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "srv_service_temp__py::@2b5ff39470023fe4f0ca",
+					"jsonFile" : "target-srv_service_temp__py-e7d3b571d6fa7b8819ba.json",
+					"name" : "srv_service_temp__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_service_temp__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_service_temp__rosidl_generator_c-c4b75195c16ca8e76a3e.json",
+					"name" : "srv_service_temp__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_service_temp__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_service_temp__rosidl_generator_py-fec98492260d16845236.json",
+					"name" : "srv_service_temp__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_service_temp__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_service_temp__rosidl_typesupport_c-21bb73ecd00c29b1564e.json",
+					"name" : "srv_service_temp__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_service_temp__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_service_temp__rosidl_typesupport_c__pyext-310a086e56dae1ce663a.json",
+					"name" : "srv_service_temp__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_service_temp__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_service_temp__rosidl_typesupport_cpp-1078894386289b88d252.json",
+					"name" : "srv_service_temp__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_service_temp__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_service_temp__rosidl_typesupport_fastrtps_c-372739f5610b3ef54dce.json",
+					"name" : "srv_service_temp__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_service_temp__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_service_temp__rosidl_typesupport_fastrtps_c__pyext-ad01386028cf0af4577a.json",
+					"name" : "srv_service_temp__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_service_temp__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_service_temp__rosidl_typesupport_fastrtps_cpp-20c3be90c307d8719572.json",
+					"name" : "srv_service_temp__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_service_temp__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_service_temp__rosidl_typesupport_introspection_c-99818da57144a4e0c0dd.json",
+					"name" : "srv_service_temp__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_service_temp__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_service_temp__rosidl_typesupport_introspection_c__pyext-3f635185215bb1a00d45.json",
+					"name" : "srv_service_temp__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_service_temp__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_service_temp__rosidl_typesupport_introspection_cpp-0c265b6348f476071cf4.json",
+					"name" : "srv_service_temp__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_service_temp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_service_temp_uninstall-79caa3ff544630172625.json",
+					"name" : "srv_service_temp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-21a3fa73cf61f637085f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/ros2_ws/build/srv_service_temp",
+		"source" : "/workspace/ros2_ws/src/srv_service_temp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
